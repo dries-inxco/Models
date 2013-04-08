@@ -45,7 +45,6 @@
 		$(this).addClass('block-hover');
 	});
 
-
 	//make promoted & feed block clicks actually happen
 	$('#asides_bottom .block').each(function(){
 		if ($(this).find('h3 a').attr('href')){
@@ -69,9 +68,6 @@
 			return false;
 		}
 	});
-
-
-
 
 	//notification
 	var notification_id = '';
